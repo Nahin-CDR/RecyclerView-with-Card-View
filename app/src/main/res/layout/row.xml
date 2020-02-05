@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:elevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+
+    <RelativeLayout
+        android:layout_margin="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:id="@+id/textViewID1"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#452E2E"
+            android:text="Recent CoronaVirus Attack"
+            android:padding="5dp"
+        />
+        <TextView
+            android:layout_below="@+id/textViewID1"
+            android:id="@+id/textViewID2"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
